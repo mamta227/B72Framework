@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="2" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Execution in local system]]>
@@ -11,117 +11,19 @@
       <![CDATA[test data:admin]]>
     </line>
     <line>
-      <![CDATA[Facebook – log in or sign up]]>
-    </line>
-    <line>
-      <![CDATA[Execution in local system]]>
-    </line>
-    <line>
-      <![CDATA[Browser is: chrome]]>
-    </line>
-    <line>
-      <![CDATA[Facebook – log in or sign up]]>
-    </line>
-    <line>
-      <![CDATA[Execution in local system]]>
-    </line>
-    <line>
-      <![CDATA[Browser is: chrome]]>
-    </line>
-    <line>
-      <![CDATA[Facebook – log in or sign up]]>
+      <![CDATA[Google]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-05-03T12:09:55 IST" name="Suite" finished-at="2023-05-03T12:11:12 IST" duration-ms="76251">
+  <suite started-at="2023-05-04T11:35:47 IST" name="Default suite" finished-at="2023-05-04T11:37:28 IST" duration-ms="101457">
     <groups>
     </groups>
-    <test started-at="2023-05-03T12:09:55 IST" name="Test" finished-at="2023-05-03T12:11:12 IST" duration-ms="76251">
-      <class name="script.DemoTest2">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest2@7b2bbc3]" started-at="2023-05-03T12:10:35 IST" name="preCondition" finished-at="2023-05-03T12:10:52 IST" duration-ms="17337" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://www.fb.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[no]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Execution in local system]]>
-            </line>
-            <line>
-              <![CDATA[Browser is: chrome]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="demoTest2()[pri:0, instance:script.DemoTest2@7b2bbc3]" started-at="2023-05-03T12:10:52 IST" name="demoTest2" finished-at="2023-05-03T12:10:52 IST" duration-ms="66" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Facebook – log in or sign up]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- demoTest2 -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.DemoTest2@7b2bbc3]" started-at="2023-05-03T12:10:52 IST" name="postCondition" finished-at="2023-05-03T12:10:54 IST" duration-ms="1666" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- script.DemoTest2 -->
-      <class name="script.DemoTest3">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest3@a1153bc]" started-at="2023-05-03T12:10:54 IST" name="preCondition" finished-at="2023-05-03T12:11:10 IST" duration-ms="15607" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[http://www.fb.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[no]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Execution in local system]]>
-            </line>
-            <line>
-              <![CDATA[Browser is: chrome]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- preCondition -->
-        <test-method signature="demoTest3()[pri:0, instance:script.DemoTest3@a1153bc]" started-at="2023-05-03T12:11:10 IST" name="demoTest3" finished-at="2023-05-03T12:11:10 IST" duration-ms="61" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Facebook – log in or sign up]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- demoTest3 -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.DemoTest3@a1153bc]" started-at="2023-05-03T12:11:10 IST" name="postCondition" finished-at="2023-05-03T12:11:12 IST" duration-ms="1855" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- postCondition -->
-      </class> <!-- script.DemoTest3 -->
+    <test started-at="2023-05-04T11:35:47 IST" name="Default test" finished-at="2023-05-04T11:37:28 IST" duration-ms="101457">
       <class name="script.DemoTest">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest@9597028]" started-at="2023-05-03T12:09:55 IST" name="preCondition" finished-at="2023-05-03T12:10:14 IST" duration-ms="18300" status="PASS">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest@36902638]" started-at="2023-05-04T11:35:47 IST" name="preCondition" finished-at="2023-05-04T11:36:37 IST" duration-ms="50426" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[http://www.fb.com]]>
+                <![CDATA[http://www.google.com]]>
               </value>
             </param>
             <param index="1">
@@ -144,52 +46,51 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="demoTest1()[pri:0, instance:script.DemoTest@9597028]" started-at="2023-05-03T12:10:14 IST" name="demoTest1" finished-at="2023-05-03T12:10:28 IST" duration-ms="14409" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="demoTest1()[pri:0, instance:script.DemoTest@36902638]" started-at="2023-05-04T11:36:37 IST" name="demoTest1" finished-at="2023-05-04T11:37:01 IST" duration-ms="23958" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[test data:admin]]>
+            </line>
+            <line>
+              <![CDATA[Google]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demoTest1 -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.DemoTest@36902638]" started-at="2023-05-04T11:37:01 IST" name="postCondition" finished-at="2023-05-04T11:37:27 IST" duration-ms="26019" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='q']"}
-  (Session info: chrome=112.0.5615.139)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[Timed out waiting for driver server to stop.
 Build info: version: '4.9.0', revision: 'd7057100a6'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0fcdc633a2667e651b3f699761b361ae, findElement {using=name, value=q}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.139, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mamat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53981}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53981/devtoo..., se:cdpVersion: 112.0.5615.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0fcdc633a2667e651b3f699761b361ae]]>
+Command: [f240d3452b42677c3ec1a46fb95d0357, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.139, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mamat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53991}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53991/devtoo..., se:cdpVersion: 112.0.5615.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f240d3452b42677c3ec1a46fb95d0357]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='q']"}
-  (Session info: chrome=112.0.5615.139)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
 Build info: version: '4.9.0', revision: 'd7057100a6'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [0fcdc633a2667e651b3f699761b361ae, findElement {using=name, value=q}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.139, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mamat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53981}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53981/devtoo..., se:cdpVersion: 112.0.5615.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 0fcdc633a2667e651b3f699761b361ae
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+Command: [f240d3452b42677c3ec1a46fb95d0357, quit {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.139, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mamat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53991}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53991/devtoo..., se:cdpVersion: 112.0.5615.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f240d3452b42677c3ec1a46fb95d0357
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:148)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
-at page.GooglePage.setSearch(GooglePage.java:19)
-at script.DemoTest.demoTest1(DemoTest.java:19)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:445)
+at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:279)
+at generic.BaseTest.postCondition(BaseTest.java:70)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:578)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
@@ -212,23 +113,32 @@ at org.testng.TestNG.run(TestNG.java:1067)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: driver.version: unknown
+at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
+at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:144)
+... 37 more
+Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
+Build info: version: '4.9.0', revision: 'd7057100a6'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: driver.version: unknown
+at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:181)
+at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:119)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:138)
+at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1589)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[test data:admin]]>
-            </line>
-            <line>
-              <![CDATA[Facebook – log in or sign up]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- demoTest1 -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.DemoTest@9597028]" started-at="2023-05-03T12:10:28 IST" name="postCondition" finished-at="2023-05-03T12:10:35 IST" duration-ms="6559" status="PASS">
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
       </class> <!-- script.DemoTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
