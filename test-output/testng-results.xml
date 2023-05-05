@@ -8,22 +8,19 @@
       <![CDATA[Browser is: chrome]]>
     </line>
     <line>
-      <![CDATA[test data:admin]]>
-    </line>
-    <line>
-      <![CDATA[Google]]>
+      <![CDATA[HomePage is Displayed]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-05-04T11:35:47 IST" name="Default suite" finished-at="2023-05-04T11:37:28 IST" duration-ms="101457">
+  <suite started-at="2023-05-04T12:59:29 IST" name="Default suite" finished-at="2023-05-04T13:00:35 IST" duration-ms="65438">
     <groups>
     </groups>
-    <test started-at="2023-05-04T11:35:47 IST" name="Default test" finished-at="2023-05-04T11:37:28 IST" duration-ms="101457">
-      <class name="script.DemoTest">
-        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.DemoTest@36902638]" started-at="2023-05-04T11:35:47 IST" name="preCondition" finished-at="2023-05-04T11:36:37 IST" duration-ms="50426" status="PASS">
+    <test started-at="2023-05-04T12:59:29 IST" name="Default test" finished-at="2023-05-04T13:00:35 IST" duration-ms="65438">
+      <class name="script.ValidLogin">
+        <test-method is-config="true" signature="preCondition(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:script.ValidLogin@36902638]" started-at="2023-05-04T12:59:29 IST" name="preCondition" finished-at="2023-05-04T13:00:06 IST" duration-ms="37133" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[http://www.google.com]]>
+                <![CDATA[https://demo.actitime.com/login.do]]>
               </value>
             </param>
             <param index="1">
@@ -46,99 +43,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- preCondition -->
-        <test-method signature="demoTest1()[pri:0, instance:script.DemoTest@36902638]" started-at="2023-05-04T11:36:37 IST" name="demoTest1" finished-at="2023-05-04T11:37:01 IST" duration-ms="23958" status="PASS">
+        <test-method signature="testValidLogin()[pri:1, instance:script.ValidLogin@36902638]" started-at="2023-05-04T13:00:06 IST" name="testValidLogin" finished-at="2023-05-04T13:00:26 IST" duration-ms="19181" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[test data:admin]]>
-            </line>
-            <line>
-              <![CDATA[Google]]>
+              <![CDATA[HomePage is Displayed]]>
             </line>
           </reporter-output>
-        </test-method> <!-- demoTest1 -->
-        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.DemoTest@36902638]" started-at="2023-05-04T11:37:01 IST" name="postCondition" finished-at="2023-05-04T11:37:27 IST" duration-ms="26019" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.9.0', revision: 'd7057100a6'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f240d3452b42677c3ec1a46fb95d0357, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.139, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mamat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53991}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53991/devtoo..., se:cdpVersion: 112.0.5615.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f240d3452b42677c3ec1a46fb95d0357]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.9.0', revision: 'd7057100a6'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f240d3452b42677c3ec1a46fb95d0357, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.139, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: C:\Users\mamat\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53991}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53991/devtoo..., se:cdpVersion: 112.0.5615.139, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f240d3452b42677c3ec1a46fb95d0357
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:148)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:445)
-at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:279)
-at generic.BaseTest.postCondition(BaseTest.java:70)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:578)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: java.util.concurrent.ExecutionException: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: '4.9.0', revision: 'd7057100a6'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: driver.version: unknown
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:144)
-... 37 more
-Caused by: org.openqa.selenium.TimeoutException: Process timed out after waiting for 20000 ms.
-Build info: version: '4.9.0', revision: 'd7057100a6'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
-Driver info: driver.version: unknown
-at org.openqa.selenium.os.OsProcess.waitFor(OsProcess.java:181)
-at org.openqa.selenium.os.CommandLine.waitFor(CommandLine.java:119)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$2(DriverCommandExecutor.java:138)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1589)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:script.ValidLogin@36902638]" started-at="2023-05-04T13:00:26 IST" name="postCondition" finished-at="2023-05-04T13:00:35 IST" duration-ms="8946" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postCondition -->
-      </class> <!-- script.DemoTest -->
+      </class> <!-- script.ValidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
