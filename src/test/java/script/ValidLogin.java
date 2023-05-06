@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 import generic.BaseTest;
 import generic.Excel;
-import page.EnterTimeTrackPage;
+import page.HomePage;
 import page.LoginPage;
 
 public class ValidLogin extends BaseTest
@@ -24,7 +24,7 @@ public class ValidLogin extends BaseTest
 //		3. click login button
 		loginPage.clickLoginButton();
 //		4. home page should be displayed
-		EnterTimeTrackPage homePage=new EnterTimeTrackPage(driver);
+		HomePage homePage=new HomePage(driver);
 		boolean result = homePage.verifyHomePageIsDisplayed(wait);
 		Assert.assertTrue(result);
 	}

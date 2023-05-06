@@ -10,17 +10,17 @@ import org.testng.Reporter;
 
 public class LoginPage {
 	
-	@FindBy(id="username")
+	@FindBy(name="username")
 	private WebElement unTB;
 	
-	@FindBy(name="pwd")
+	@FindBy(xpath="//input[@type='password']")
 	private WebElement pwTB;
 	
-	@FindBy(xpath = "//div[text()='Login ']")
+	@FindBy(xpath = "//button[@type='submit']")
 	private WebElement loginBTN;
 	
-	@FindBy(xpath ="//span[contains(text(),'invalid')]")
-	private WebElement errMsg;
+	@FindBy(xpath ="//p[contains(@class,'content')]")
+	private WebElement invalidMsg;
 	
 	public LoginPage(WebDriver driver)
 	{
@@ -46,13 +46,13 @@ public class LoginPage {
 	{
 		try
 		{
-			wait.until(ExpectedConditions.visibilityOf(errMsg));
-			Reporter.log("Err Msg is Displayed",true);
+			wait.until(ExpectedConditions.visibilityOf(invalidMsg));
+			Reporter.log("Invalid Msg is Displayed",true);
 			return true;
 		}
 		catch (Exception e) 
 		{
-			Reporter.log("Err Msg is Not Displayed",true);
+			Reporter.log("Invalid Msg is Not Displayed",true);
 			return false;
 		}
 	}

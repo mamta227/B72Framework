@@ -8,12 +8,12 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 
-public class EnterTimeTrackPage {
+public class HomePage {
 
-	@FindBy(id="logoutLink")
-	private WebElement logoutLink;
+	@FindBy(xpath="//h6")
+	private WebElement dashboard;
 	
-	public EnterTimeTrackPage(WebDriver driver)
+	public HomePage(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);
 	}
@@ -22,7 +22,7 @@ public class EnterTimeTrackPage {
 	{
 		try 
 		{
-			wait.until(ExpectedConditions.visibilityOf(logoutLink));
+			wait.until(ExpectedConditions.visibilityOf(dashboard));
 			Reporter.log("HomePage is Displayed",true);
 			return true;
 		}

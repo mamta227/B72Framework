@@ -18,10 +18,10 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class BaseTest {
-	public static final String DEFAULT_URL="https://demo.actitime.com/login.do";
+	public static final String DEFAULT_URL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
 	public static final String DEFAULT_GRID="no";
 	public static final String DEFAULT_BROWSER="chrome";
-	public static final String XL_PATH="./data/input.xlsx";
+	public static final String XL_PATH="./data/Input1.xlsx";
 	
 	public WebDriver driver;
 	public WebDriverWait wait;
