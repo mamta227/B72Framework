@@ -2,15 +2,14 @@ package generic;
 
 import java.net.URL;
 import java.time.Duration;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.remote.RemoteWebDriver;
-import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -18,10 +17,10 @@ import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
 public class BaseTest {
-	public static final String DEFAULT_URL="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login";
+	public static final String DEFAULT_URL="https://demo.actitime.com";
 	public static final String DEFAULT_GRID="no";
 	public static final String DEFAULT_BROWSER="chrome";
-	public static final String XL_PATH="./data/Input1.xlsx";
+	public static final String XL_PATH="./data/input.xlsx";
 	
 	public WebDriver driver;
 	public WebDriverWait wait;
@@ -66,7 +65,15 @@ public class BaseTest {
 	}
 	
 	@AfterMethod
-	public void postCondition() {
+	public void postCondition(ITestResult result) {
+		String testName = result.getName();
+		
+		int status=result.getStatus();
+		if(status==2)
+		{
+			String timeStamp = Util.getTimeStamp();
+			ScreenShot.takePageScreenShot(driver,"./images/"+testName+timeStamp+".png");
+		}
 		driver.quit();
 	}
 }
