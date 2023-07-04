@@ -18,6 +18,13 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.0.0</version>
         <configuration>
+			<systemPropertyVariables>
+				<htmlpath>report/Spark.html</htmlpath>
+				<appurl>https://demo.actitime.com/login.do</appurl>
+				<grid>no</grid>
+				<browser>chrome</browser>
+				<pptfile>qa.properties</pptfile>
+			</systemPropertyVariables>
           <suiteXmlFiles>
             <suiteXmlFile>testng.xml</suiteXmlFile>
           </suiteXmlFiles>
@@ -51,6 +58,33 @@
   		<artifactId>ashot</artifactId>
   		<version>1.5.4</version>
   	</dependency>
+  	<dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>LATEST</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.logging.log4j</groupId>
+    <artifactId>log4j-core</artifactId>
+    <version>2.20.0</version>
+</dependency>
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-csv</artifactId>
+    <version>1.10.0</version>
+</dependency>
+
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>json-path</artifactId>
+    <version>LATEST</version>
+</dependency>
+
+<dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.33</version>
+</dependency>
   </dependencies>
 </project>
 
